@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bor{
+        border: 1px solid rgb(128, 36, 36);
+    }
+    .font{
+        font-family: "Courier New", Courier, monospace
+    }
+    input{
+      caret-color: transparent;
+      
+    }
+    .cursor {
+        display: flex;
+        width: 10px;
+        height: 6px;
+        margin-bottom: 7px;
+        background-color: aliceblue;
+        animation: blink step-start infinite 1s;
+       
+      }
+      .care{
+       caret-color: transparent;
+      }
+      .bg{
+        background-color: rgb(27, 14, 14);
+      }
+      
+     
+}
+
+@keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
