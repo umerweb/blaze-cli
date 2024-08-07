@@ -30,7 +30,7 @@ const Cli = () => {
               Enter [cd ..] to go back<br />
               
               Enter [hello &lt;#<span class='font text-sm font-normal text-yellow-600'>message</span>&gt; to display a message<br />
-              Enter [heck] to heck nasa
+              Enter [heck] to heck NASA
             </div>`;
           setOldCmd((prevItems) => [...prevItems, { input: input, output: cmdoutput }]);
 
