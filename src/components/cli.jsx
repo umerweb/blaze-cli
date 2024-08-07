@@ -28,7 +28,7 @@ const Cli = () => {
               Enter [ls] to see files <br />
               Enter [cd &lt;#<span class='font text-sm font-normal text-yellow-600'>dir</span>&gt;] to navigate<br />
               Enter [cd ..] to go back<br />
-              Enter [s, scan] to scan drive <br />
+              
               Enter [hello &lt;#<span class='font text-sm font-normal text-yellow-600'>message</span>&gt; to display a message<br />
               Enter [heck] to heck nasa
             </div>`;
